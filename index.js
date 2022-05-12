@@ -22,6 +22,7 @@ function createList() {
   element.appendChild(list)
 }
 
+// set up an event listener/handler for a KeyBoard event
 function typeStuff() {
   const legalLetters = [
     'a',
@@ -66,7 +67,6 @@ function typeStuff() {
     if (legalLetters.includes(event.key)) {
       boxIndex ++
       var boxId = "box-" + parseInt(boxIndex)
-      console.log('box id:', boxId)
       var box = document.getElementById(boxId)
       box.textContent = event.key
       if (boxIndex > 4) { 
