@@ -30,18 +30,13 @@ li:nth-child(odd) {
   background-color: antiquewhite;
 }
 
-#type-me {
+#box-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-#right-container, #left-container {
-  width: 20%;
-}
-/* #box-container {
+  max-width: 40%;
   margin: auto;
-} */
+}
 
 .box {
   width: 2rem;
