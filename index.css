@@ -48,4 +48,5 @@ li:nth-child(odd) {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
+  border-radius: .25rem;
 }
